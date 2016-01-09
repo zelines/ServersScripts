@@ -1,0 +1,20 @@
+  GNU nano 2.2.6                                     File: caller.py                                                                                  
+
+#call other scripts
+import time
+import os
+
+while True:
+  #os.system("arduinoSqlV2.py 1")
+  execfile("arduinoSqlV2.py")
+  time.sleep(240)
+
+
+
+
+
+
+
+
+
+
